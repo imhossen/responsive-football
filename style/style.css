@@ -1,0 +1,131 @@
+/* Importing Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* Common Style */
+
+:root {
+    --paragraph-color: #6C6C6C;
+    --button-color: #E02C6D;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    color: white;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+h6 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--paragraph-color);
+}
+
+button {
+    font-family: poppins;
+    border: none;
+    background-color: var(--button-color);
+    color: white;
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    border-radius: 10px;
+}
+
+button>i {
+    margin-left: 10px;
+}
+
+button:hover {
+    background: #f71366;
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+}
+
+/* Hero Section */
+
+.hero__section {
+    display: flex;
+    align-items: center;
+    background-color: #2D25A0;
+    padding: 120px 100px;
+}
+
+.hero__left {
+    width: 50%;
+}
+
+.hero__right {
+    width: 50%;
+}
+
+.hero__right>img {
+    float: right;
+    width: 500px;
+    height: 400px;
+}
+
+/* Players Section  */
+
+.players__section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.players__card {
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+
+}
+
+.card {
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.card>img {
+    width: 100%;
+}
+
+/* Footer Section  */
+
+footer {
+    text-align: center;
+}
+
+.footer__section>img {
+    width: 250px;
+}
+
+.social__icon>a>i {
+    font-size: 20px;
+    color: #969BAB;
+    padding: 10px;
+    background: #E7E7E8;
+    border-radius: 20px;
+}
