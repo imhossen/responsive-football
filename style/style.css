@@ -145,9 +145,9 @@ footer {
 
 @media only screen and (max-width: 600px) {
     .hero__section {
-        padding: 30px 20px;
+        padding: 30px 40px;
         display: block;
-        height: 500px;
+        height: 600px;
         overflow: hidden;
     }
 
@@ -156,18 +156,19 @@ footer {
     }
 
     .hero__left h1 {
-        font-size: 35px;
-        line-height: 50px;
+        width: 300px;
+        font-size: 40px;
+        line-height: 55px;
     }
 
     .hero__right {
         width: 100%;
+        display: block;
         margin-top: 10%;
         float: left;
     }
 
     .hero__right img {
-
         width: 330px;
         height: 250px;
     }
@@ -215,7 +216,7 @@ footer {
     }
 
     .players__card {
-        width: 600px;
+        width: 90%;
         grid-template-columns: repeat(2, 1fr);
     }
 
