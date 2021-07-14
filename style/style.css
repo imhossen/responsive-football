@@ -6,6 +6,7 @@
 :root {
     --paragraph-color: #6C6C6C;
     --button-color: #F8593B;
+    --background-color: #2D25A0;
 }
 
 body {
@@ -69,7 +70,7 @@ button:hover {
 .hero__section {
     display: flex;
     align-items: center;
-    background-color: #2D25A0;
+    background-color: var(--background-color);
     padding: 120px 100px;
 }
 
@@ -123,7 +124,7 @@ button:hover {
 /* Celebration section  */
 
 .celebration__section {
-    background: #2D25A0;
+    background: var(--background-color);
     display: flex;
     justify-content: center;
     align-items: flex-end;
