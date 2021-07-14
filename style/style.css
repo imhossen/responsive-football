@@ -170,8 +170,6 @@ button:hover {
 
 }
 
-
-
 /* Footer Section  */
 
 footer {
@@ -194,9 +192,9 @@ footer h6 {
     margin: 20px auto;
 }
 
-/* Media Query  */
+/* -------- Media Query ---------------- */
 
-/* Mobile Responsive */
+/* ------- Mobile Responsive ------------ */
 
 
 @media only screen and (max-width: 600px) {
@@ -272,7 +270,7 @@ footer h6 {
 
 }
 
-/* Tablet Device Responsive */
+/* Tablet Device */
 
 @media (max-width: 1025px) and (min-width: 601px) {
     .hero__section {
